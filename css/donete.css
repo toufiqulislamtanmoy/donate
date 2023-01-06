@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-title {
+    font-family: 'Inter', sans-serif;
+}
+
+.text-second {
+    font-family: 'Poppins', sans-serif;
+}
+/* Banner Style */
+.banner {
+    background-image: url('../images/bg.png');
+    background-blend-mode:color-dodge;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.baner-titel{
+    font-size: 85px;
+    color: white;
+    text-align: center;
+}
+
+.baner-discription{
+    color: white;
+    font-weight: 800;
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn-primary{
+    cursor: pointer;
+    background-color: #FF5959;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.donate-today{
+    margin-top: 8rem;
+}
+
+.donate-today-title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.donate-today-discription{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #707070;
+}
+/* Donate Amount */
+
+.donation-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.donation-amount{
+    cursor: pointer;
+}
+
+.amount{
+    background-color: #FFEEEE;
+    padding: 30px;
+    border-radius:7px;
+    color: #707070;
+
+}
+
+.amount:hover{
+    border: 2px solid #FF5959;
+    border-radius: 7px;
+    color: #FF5959;   
+}
+
+/* Donate input section and button */
+.submit-donation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.submit-donation input{
+    width: 45%;
+    border: none;
+    border-bottom: 1px solid #707070;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.align-center{
+    text-align: center;
+}
+
+/* Donate Plan */
+
+.donate-plan{
+    margin-top: 100px;
+}
+
+.plans{
+    display: flex;
+    gap: 24px;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.plan1{
+    background-color: rgba(79, 157, 166, 0.1);
+    padding: 60px 30px;
+    border-radius: 7px;
+}
+.plan2{
+    background-color: rgba(255, 89, 89, 0.1);
+    padding: 60px 30px;
+    border-radius: 7px;
+}
+.plan3{
+    background-color: rgba(196, 168, 12, 0.1);
+    padding: 60px 30px;
+    border-radius: 7px;
+}
+
+
+.plan-title{
+    margin: 25px 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.plan-discrp{
+    width: 70%;
+    font-size: 16px;
+    font-weight: 900;
+    color: #707070;
+}
+
+/* Mid Content */
+.mid-content{
+    display: flex;
+    gap: 30px;
+    /* margin-left:140px; */
+    margin: 140px;
+    /* margin-right: 140px; */
+}
+
+.text-content{
+    margin-top: 70px;
+}
+
+.mid-heding{
+    font-size: 70px;
+    font-weight: 800;
+    color: #121212;
+    width: 80%;
+}
+
+.mid-discription{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 900;
+    color: #707070;
+}
+
+
+.img-content img{
+    width: 760px;
+    height: 550px;
+    border-radius: 12px;
+}
+/* Subscribe Section */
+.subscribe-section{
+    text-align: center;
+}
+
+.sub-title{
+    font-size: 48px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.sub-descip{
+    width: 40%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #707070;
+    margin: auto;
+}
+
+.from-section{
+    background-color: rgba(196, 168, 12, 0.1);
+    width: 50%;
+    margin:120px auto 120px auto;
+    padding: 70px;
+}
+
+.from-section input{
+    outline: none;
+    border: none;
+    background-color:#D9D9D9;
+    padding: 21px 20px 20px 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.from-section button{
+    margin-left: -10px;
+    padding: 16px 35px !important;
+    border-radius: 0px 5px 5px 0px;
+}
+/* Footer Color */
+.footer{
+    background-color: #0B0D17;
+    background-blend-mode: darken;
+}
+
+.footer-title{
+    text-align: center;
+    color: #FF5959;
+    font-family: 'Lobster';
+    padding-top: 25px;
+}
+
+.footer-descp{
+    color: #D9DBE1;
+    font-family: 'Manrope';
+    text-align: center;
+    padding: 20px 0;
+}
